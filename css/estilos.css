@@ -235,3 +235,9 @@ footer {
     flex-direction: column;
   }
 }
+.upperdiv{
+  display: flex;
+  align-items: center;
+  /* font-size: x-large; */
+}
+}
