@@ -240,3 +240,6 @@ footer {
   align-items: center;
   /* font-size: x-large; */
 }
+.nav{
+  gap: 5px;
+}
