@@ -1,9 +1,14 @@
 body {
-    background-color: darkgray;
-    margin: 20px 10px;
-    height: 100%;
-  }
-  .container-padre {
+  background-color: darkgray;
+  margin: 20px 10px;
+  height: 100%;
+}
+.upperdiv{
+  display: flex;
+  align-items: center;
+  /* font-size: x-large; */
+}
+.container-padre {
     display: grid;
     grid-template-areas:
       "header header header"
@@ -65,9 +70,4 @@ body {
     100% {
       opacity: 1;
     }
-  }
-  .upperdiv{
-    display: flex;
-    align-items: center;
-    /* font-size: x-large; */
   }
