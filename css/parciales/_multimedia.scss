@@ -1,0 +1,49 @@
+.mediathai {
+    max-height: 30rem;
+    max-width: fit-content;
+  }
+  .mediabjj {
+    max-height: 30rem;
+    max-width: fit-content;
+  }
+  
+  .media_mma {
+    display: grid;
+    grid-template-areas:
+      "video video final"
+      "guillotina rasta videonacho"
+      "entrando entrando nada";
+    grid-template-columns: 33% 33% 33%;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .videomma {
+    grid-area: video;
+    max-height: 500px;
+  }
+  .final {
+    grid-area: final;
+    max-height: 500px;
+  }
+  .guillotina {
+    grid-area: guillotina;
+    max-height: 500px;
+  }
+  .rasta {
+    grid-area: rasta;
+    max-height: 500px;
+  }
+  .videonacho {
+    grid-area: videonacho;
+    max-height: 500px;
+  }
+  .entrando {
+    grid-area: entrando;
+    max-height: 500px;
+  }
+  .section_under {
+    margin-top: 5rem;
+  }
+  .logoabama2 {
+    max-height: 230px;
+  }

@@ -158,4 +158,81 @@ footer {
 .lotusfooter {
   max-height: 15rem;
 }
+
+.mediathai {
+  max-height: 30rem;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.mediabjj {
+  max-height: 30rem;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.media_mma {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "video video final" "guillotina rasta videonacho" "entrando entrando nada";
+  -ms-grid-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+.videomma {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: video;
+  max-height: 500px;
+}
+
+.final {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: final;
+  max-height: 500px;
+}
+
+.guillotina {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: guillotina;
+  max-height: 500px;
+}
+
+.rasta {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: rasta;
+  max-height: 500px;
+}
+
+.videonacho {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: videonacho;
+  max-height: 500px;
+}
+
+.entrando {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: entrando;
+  max-height: 500px;
+}
+
+.section_under {
+  margin-top: 5rem;
+}
+
+.logoabama2 {
+  max-height: 230px;
+}
 /*# sourceMappingURL=main.css.map */
