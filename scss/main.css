@@ -184,7 +184,7 @@ footer {
   width: 100%;
 }
 
-.videomma {
+.media_mmavideomma {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -192,35 +192,35 @@ footer {
   max-height: 500px;
 }
 
-.final {
+.media_mmafinal {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: final;
   max-height: 500px;
 }
 
-.guillotina {
+.media_mmaguillotina {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: guillotina;
   max-height: 500px;
 }
 
-.rasta {
+.media_mmarasta {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: rasta;
   max-height: 500px;
 }
 
-.videonacho {
+.media_mmavideonacho {
   -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: videonacho;
   max-height: 500px;
 }
 
-.entrando {
+.media_mmaentrando {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
