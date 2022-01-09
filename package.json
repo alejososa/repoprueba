@@ -1,0 +1,25 @@
+{
+  "name": "entregacongridyresponsivealejososa",
+  "version": "1.0.0",
+  "description": "paquete",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejososa/repoprueba.git"
+  },
+  "author": "Alejo Sosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejososa/repoprueba/issues"
+  },
+  "homepage": "https://github.com/alejososa/repoprueba#readme"
+}
