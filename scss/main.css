@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: darkgrey;
+  background-color: #101c8f;
   margin: 20px 10px;
   height: 100%;
 }
@@ -25,9 +25,7 @@ body {
 .container-padre {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "header header header"
- "main main main"
- "footer footer footer";
+      grid-template-areas: "header header header" "main main main" "footer footer footer";
   width: 100%;
 }
 
@@ -177,9 +175,7 @@ header {
 .media_mma {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "video video final"
- "guillotina rasta videonacho"
- "entrando entrando nada";
+      grid-template-areas: "video video final" "guillotina rasta videonacho" "entrando entrando nada";
   -ms-grid-columns: 33% 33% 33%;
       grid-template-columns: 33% 33% 33%;
   -webkit-box-sizing: border-box;
