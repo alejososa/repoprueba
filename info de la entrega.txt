@@ -1,0 +1,4 @@
+se agregaron en _variables.scss :
+mixin centrando y el mapa de estilos para hacer, map-get con los valores más usado en la página
+
+se cambiaron los títulos del index y de las disciplias y se agregaron metas keywords y description para mejorar el seo
