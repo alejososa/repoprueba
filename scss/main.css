@@ -6,24 +6,6 @@
           box-sizing: border-box;
 }
 
-header {
-  background-color: black;
-  padding: 20px 10px;
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: header;
-}
-
-.nav {
-  gap: 5px;
-}
-
 body {
   background-color: darkgrey;
   margin: 20px 10px;
@@ -43,7 +25,9 @@ body {
 .container-padre {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "header header header" "main main main" "footer footer footer";
+      grid-template-areas: "header header header"
+ "main main main"
+ "footer footer footer";
   width: 100%;
 }
 
@@ -113,10 +97,6 @@ body {
   }
 }
 
-.horarios {
-  max-height: 50rem;
-}
-
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -158,6 +138,28 @@ footer {
   max-height: 15rem;
 }
 
+header {
+  background-color: black;
+  padding: 20px 10px;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+}
+
+.nav {
+  gap: 5px;
+}
+
+.horarios {
+  max-height: 50rem;
+}
+
 .mediathai {
   max-height: 30rem;
   max-width: -webkit-fit-content;
@@ -175,7 +177,9 @@ footer {
 .media_mma {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "video video final" "guillotina rasta videonacho" "entrando entrando nada";
+      grid-template-areas: "video video final"
+ "guillotina rasta videonacho"
+ "entrando entrando nada";
   -ms-grid-columns: 33% 33% 33%;
       grid-template-columns: 33% 33% 33%;
   -webkit-box-sizing: border-box;
