@@ -10,7 +10,8 @@
         "parciales/_header.scss",
         "parciales/_horarios.scss",
         "parciales/_multimedia.scss",
-        "parciales/_variables.scss"
+        "parciales/_variables.scss",
+        "parciales/_mediaqueries.scss"
     ],
     "names": [],
     "file": "main.css"
